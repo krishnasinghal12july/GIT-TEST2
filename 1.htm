@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr  ;
+    background-color: black;
+
+    }
+    .box1,.box2,.box3,.box4{
+     color: white;
+     padding: 20px;
+
+       
+    }
+    
+    option{
+        background-color: black;
+        color: white;
+    }
+    .h{
+        background-color: black;
+        color: white;
+    }
+    select{
+        background-color: black;
+        color: white;
+        border: none;
+    }
+    select:hover{
+        background-color: rgb(53, 52, 52);
+        
+    }
+    </style>
+    
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="box1">Home</div> <div class="box2">About us</div> 
+        <div class="box3">  <select name="SUBJECT" id="SUBJECT">
+            <option class="h" value="course" disabled selected>COURSE</option>
+                <option value="btech">BTECH</option>
+                <option value="bca">BCA</option>
+                <option value="bba">BBA</option>
+            </select></div> 
+            
+            <div class="box4">INFO </div>
+
+    </div>
+
+</body>
+</html>
